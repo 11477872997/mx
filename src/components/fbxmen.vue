@@ -27,7 +27,7 @@
                         <el-input-number show-input  v-model="store.$state.objectList.position.z" />
                     </el-form-item>
                 </section>
-                <el-divider content-position="left">缩放</el-divider>
+                <el-divider content-position="left">缩放1</el-divider>
                 <section>
                     <el-form-item label="缩放X">
                         <el-input-number show-input   :step="0.1" v-model="store.$state.objectList.scale.x" />
